@@ -81,7 +81,7 @@ Se pueden crear peticiones propias pero no es taaan recomendable
 
 Las respuestas deben tener un código de status (si es que falló o si se completó)
 1XX (100 al 199) informativos
-2xx (200 a l299) exito
+2xx (200 al 299) exito
 3xx (300 al 399) redirecciones
 4xx (400 al 499) error del cliente
 5xx (500 al 599) error del servidor
@@ -94,3 +94,19 @@ Aprender de preferencia los 2XX pq son muy importantes :D!
 leer DOC's HTTP en Node
 
 vamos a implementar lo de los koders pero esta vez desde HTTP servidor web
+
+# URL
+
+Uniform Resource Locator
+
+http://host/recurso/:identificador?queryParams
+
+Ejemplos:
+
+http://api.kodemia.com/koders/23456
+
+https://www.googleapis.com/youtube/v3/channels
+
+http://api.kodemia.com/koders?program=javascript&gen=12
+
+## Express.js
